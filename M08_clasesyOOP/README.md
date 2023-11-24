@@ -72,6 +72,7 @@ Se instancian distintos objetos a partir de una clase:
 >>> def cumplirAños(self):
 >>>     self.edad = self.edad + 1
 >>> 
+
 >>> a1 = Animal('Ratón', 2, 'Marrón')
 >>> print(a1.especie)
 Ratón
@@ -150,7 +151,7 @@ En el siguiente ejemplo vemos como se puede usar la herencia en Python, con la c
 
 **¿Y para que queremos la herencia?** Dado que una clase hija hereda los atributos y métodos de la padre, nos puede ser muy útil cuando tengamos clases que se parecen entre sí pero tienen ciertas particularidades. En este caso en vez de definir un montón de clases para cada animal, podemos tomar los elementos comunes y crear una clase Animal de la que hereden el resto, respetando por tanto la filosofía DRY. Realizar estas abstracciones y buscar el denominador común para definir una clase de la que hereden las demás, es una tarea de lo más compleja en el mundo de la programación.
 
-Para saber más: El principio DRY (Don't Repeat Yourself) es muy aplicado en el mundo de la programación y consiste en no repetir código de manera innecesaria. Cuanto más código duplicado exista, más difícil será de modificar y más fácil será crear inconsistencias. Las clases y la herencia a no repetir código.
+Para saber más: El principio DRY (Don't Repeat Yourself) es muy aplicado en el mundo de la programación y consiste en no repetir código de manera innecesaria. Cuanto más código duplicado exista, más difícil será de modificar y más fácil será crear inconsistencias. Las clases y la herencia ayudan a no repetir código.
 
 ### Extendiendo y modificando métodos
 
